@@ -14,4 +14,4 @@ os.listdir() # Lists files in the current dir (Windows 10)
 pd.read_table('nmeth.1226-S3.txt') # Convert text data into a DataFrame
 
 tabelaExpressao = pd.read_table('nmeth.1226-S3.txt') # Importing the table with gene expression
-
+tabelaAnotacaoCamundongo = pd.read_table('gene_result.txt') # Importing the table with annotation (from NCBI)
