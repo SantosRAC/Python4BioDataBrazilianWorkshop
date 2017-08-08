@@ -2,7 +2,7 @@
 ## importing libraries
 ## reading table
 ## reading content of directories
-##
+## reading, manipulating pandas DataFrame
 ##
 
 import pandas as pd # Importing python library called 'pandas'
@@ -13,35 +13,51 @@ print(os.listdir()) # Lists files in the current dir (it works either on Windows
 
 print(pd.read_table('nmeth.1226-S3.txt')) # Reading gene expression data with "read_table" function of pandas
 
-tabelaExpressao = pd.read_table('nmeth.1226-S3.txt') # Importing the table with gene expression data
+# Importing the table with gene expression data for:
+tabelaExpressaoMouseBrain = pd.read_table('nmeth.1226-S3.txt') # Mouse brain
+tabelaExpressaoMouseLiver = pd.read_table('nmeth.1226-S4.txt') # Mouse liver
+tabelaExpressaoMouseMuscle = pd.read_table('nmeth.1226-S5.txt') # Mouse muscle
+
+# TODO: allow python to import the same tables as Excel files (more usual to biologists)
+
 tabelaAnotacaoCamundongo = pd.read_table('gene_result.txt') # Importing the table with annotation (from NCBI)
 
-print(tabelaExpressao) # Printing the pandas DataFrame with gene expression data
+print(tabelaExpressaoMouseBrain) # Printing the pandas DataFrame with gene expression data
                        ## Python will limit number of lines shown
 
-print(tabelaExpressao.shape) # Printing a tuple representing the dimensionality of the DataFrame.
-print(tabelaExpressao.size) # Printing the number of elements in the NDFrame
+print(tabelaExpressaoMouseBrain.shape) # Printing a tuple representing the dimensionality of the DataFrame.
+print(tabelaExpressaoMouseBrain.size) # Printing the number of elements in the NDFrame
 
-print(tabelaExpressao.columns) # Printing the columns of the DataFrame
+print(tabelaExpressaoMouseBrain.columns) # Printing the columns of the DataFrame
 
-print(tabelaExpressao['gene']) # Retrieving information of a column by dict-like notation
+print(tabelaExpressaoMouseBrain['gene']) # Retrieving information of a column by dict-like notation
 
-print(tabelaExpressao.gene) # Retrieving information of a column by attribute
+print(tabelaExpressaoMouseBrain.gene) # Retrieving information of a column by attribute
 
-print(tabelaExpressao.ix[1]) # Retrieving information from column 1
+print(tabelaExpressaoMouseBrain.ix[1]) # Retrieving information from column 1
 
-print(tabelaExpressao.ix[[1, 2]]) # Retrieving information from column 1 and 2
+print(tabelaExpressaoMouseBrain.ix[[1, 2]]) # Retrieving information from column 1 and 2
                                  ## It is done by giving method ix a list with the row indexes
 
-print(tabelaExpressao.ix[[40, 401]]) # Retrieving information from column 40 and 401
+print(tabelaExpressaoMouseBrain.ix[[40, 401]]) # Retrieving information from column 40 and 401
 
-del tabelaExpressao['gid']  # Deleting the column with GI (we will not need this information)
+del tabelaExpressaoMouseBrain['gid']  # Deleting the column with GI (we will not need this information)
 
- print(tabelaExpressao) # Printing the DataFrame with gene expression data
+print(tabelaExpressaoMouseBrain) # Printing the DataFrame with gene expression data
                        ## after deleting the column with GI
 
-print(tabelaExpressao.shape) # Printing a tuple representing the dimensionality of the gene expression dataFrame after removing one column
-print(tabelaExpressao.size) # Printing the number of elements in the gene expression DataFrame after removing one column
+print(tabelaExpressaoMouseBrain.shape) # Printing a tuple representing the dimensionality of the gene expression dataFrame after removing one column
+print(tabelaExpressaoMouseBrain.size) # Printing the number of elements in the gene expression DataFrame after removing one column
 
-print(tabelaExpressao.T) # Tranposing the results
+print(tabelaExpressaoMouseBrain.T) # Tranposing the results
 
+print(tabelaExpressaoMouseBrain.values) # Printing only the values in the DataFrame
+
+# Example of sum of values of same index in different pandas series
+S1 = pd.Series([7.3, -2.5, 3.4, 1.5], index=['a','c','d','e'])
+S2 = pd.Series([-2.1, 3.6, -1.5, 4, 3.1], index=['a','c','e','f','g'])
+
+print(S1)
+print(S2)
+
+print(S1+S2)
