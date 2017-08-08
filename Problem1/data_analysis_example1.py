@@ -5,6 +5,10 @@
 ## reading, manipulating pandas DataFrame
 ##
 
+# TODO: Check all name of objects, variables, etc. then translate all to Portuguese or English
+        ## During the workshop the variable names will be in Portuguese, to facilitate communication
+        #  English is another barrier - this is why I am writing everything in Portuguese in the wiki
+
 import pandas as pd # Importing python library called 'pandas'
 import os # Used to check files in directory
 import Bio # Importing biopython
@@ -61,3 +65,10 @@ print(S1)
 print(S2)
 
 print(S1+S2)
+
+# Filtering DataFrame based on gene name (column "gene")
+print("Brain: ",tabelaExpressaoMouseLiver[tabelaExpressaoMouseLiver['gene'].isin(['Myf6','Myf5'])])
+print("Muscle: ",tabelaExpressaoMouseMuscle[tabelaExpressaoMouseMuscle['gene'].isin(['Myf6','Myf5'])])
+print("Liver: ",tabelaExpressaoMouseBrain[tabelaExpressaoMouseBrain['gene'].isin(['Myf6','Myf5'])])
+
+# df['A'].isin([3, 6])
