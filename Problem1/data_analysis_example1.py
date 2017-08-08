@@ -19,6 +19,9 @@ tabelaAnotacaoCamundongo = pd.read_table('gene_result.txt') # Importing the tabl
 print(tabelaExpressao) # Printing the pandas DataFrame with gene expression data
                        ## Python will limit number of lines shown
 
+print(tabelaExpressao.shape) # Printing a tuple representing the dimensionality of the DataFrame.
+print(tabelaExpressao.size) # Printing the number of elements in the NDFrame
+
 print(tabelaExpressao.columns) # Printing the columns of the DataFrame
 
 print(tabelaExpressao['gene']) # Retrieving information of a column by dict-like notation
@@ -32,5 +35,13 @@ print(tabelaExpressao.ix[[1, 2]]) # Retrieving information from column 1 and 2
 
 print(tabelaExpressao.ix[[40, 401]]) # Retrieving information from column 40 and 401
 
+del tabelaExpressao['gid']  # Deleting the column with GI (we will not need this information)
 
+ print(tabelaExpressao) # Printing the DataFrame with gene expression data
+                       ## after deleting the column with GI
+
+print(tabelaExpressao.shape) # Printing a tuple representing the dimensionality of the gene expression dataFrame after removing one column
+print(tabelaExpressao.size) # Printing the number of elements in the gene expression DataFrame after removing one column
+
+print(tabelaExpressao.T) # Tranposing the results
 
