@@ -5,11 +5,11 @@
 
 **Onde?**
 
-Na **Sala XXX** do **Instituto de Química (IQ)** / **Universidade de São Paulo (USP)** (provisório)
+Na **Sala Multimídia, Bloco 01 Superior, Sala 0168** do **Instituto de Química (IQ)** / **Universidade de São Paulo (USP)**
 
 **Quando?**
 
-Nos dias **10 e 11 de novembro de 2017** (provisório)
+Nos dias **10 e 11 de novembro de 2017**
 
 **Contato:**
 
