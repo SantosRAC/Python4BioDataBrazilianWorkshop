@@ -9,6 +9,7 @@
         ## During the workshop the variable names will be in Portuguese, to facilitate communication
         #  English is another barrier - this is why I am writing everything in Portuguese in the wiki
 
+
 import pandas as pd # Importing python library called 'pandas'
 import os # Used to check files in directory
 import Bio # Importing biopython
@@ -23,6 +24,7 @@ tabelaExpressaoMouseLiver = pd.read_table('nmeth.1226-S4.txt') # Mouse liver
 tabelaExpressaoMouseMuscle = pd.read_table('nmeth.1226-S5.txt') # Mouse muscle
 
 # TODO: allow python to import the same tables as Excel files (more usual to biologists)
+# 
 
 tabelaAnotacaoCamundongo = pd.read_table('gene_result.txt') # Importing the table with annotation (from NCBI)
 
