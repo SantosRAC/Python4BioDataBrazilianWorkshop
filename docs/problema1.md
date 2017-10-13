@@ -4,7 +4,6 @@
 
 - [Inicio](../index.md)
 - [Cronograma](cronograma.md)
-- [Participantes](participantes.md)
 - [Guia de Instalação](guia_de_instalacao.md)
 - [Material Python](python.md)
 - [Problema 1](problema1.md)
