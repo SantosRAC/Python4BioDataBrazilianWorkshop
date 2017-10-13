@@ -2,7 +2,6 @@
 
 - [Inicio](index.md)
 - [Cronograma](docs/cronograma.md)
-- [Participantes](docs/participantes.md)
 - [Guia de Instalação](docs/guia_de_instalacao.md)
 - [Material Python](docs/python.md)
 - [Problema 1](docs/problema1.md)
