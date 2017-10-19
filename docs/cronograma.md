@@ -22,6 +22,7 @@
 **12-13h** Almoço
 
 **13-14h** Palestra "Problemas biológicos e soluções computacionais"
+(Dr. Diego M. Riaño Pachón e Dra. Flávia V. Winck)
 
 **14-15:25h** Introdução à linguagem Python
 
