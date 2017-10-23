@@ -1,4 +1,3 @@
-# Bem-vindo ao Workshop de Python para Dados Biológicos
 
 - [Inicio](index.md)
 - [Cronograma](docs/cronograma.md)
@@ -6,6 +5,8 @@
 - [Material Python](docs/python.md)
 - [Problema 1](docs/problema1.md)
 - [Problema 2](docs/problema2.md)
+
+# Bem-vindo ao Workshop de Python para Dados Biológicos
 
 ## Sobre o evento
 
