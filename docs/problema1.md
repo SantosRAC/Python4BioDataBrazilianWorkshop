@@ -1,6 +1,3 @@
-# Problema 1: processamento de resultados de RNA-seq
-
-
 
 - [Inicio](../index.md)
 - [Cronograma](cronograma.md)
@@ -9,6 +6,8 @@
 - [Problema 1](problema1.md)
 - [Problema 2](problema2.md)
 
+
+# Problema 1: processamento de resultados de RNA-seq
 
 
 ## Objetivos
