@@ -27,7 +27,7 @@ Ao final desse guia, você deverá ter instalado no seu computador:
 * Bibliotecas [NumPy](http://www.numpy.org/), [SciPy](https://www.scipy.org/), [pandas](http://pandas.pydata.org/), [Jupyter](http://jupyter.org/) entre outras.
 
 ### Ir para
-* [Guia de Instalação para Windows](https://github.com/SantosRAC/Python4BioDataBrazilianWorkshop/blob/master/docs/guia_de_instalacao.md#guia-de-instala%C3%A7%C3%A3o-para-windows)
+* [Guia de Instalação para Windows](#guia-de-instala%C3%A7%C3%A3o-para-windows)
 * [Guia de Instalação para Linux](https://github.com/SantosRAC/Python4BioDataBrazilianWorkshop/blob/master/docs/guia_de_instalacao.md#guia-de-instala%C3%A7%C3%A3o-para-linux)
 * [Instalando Python e o IDLE](https://github.com/SantosRAC/Python4BioDataBrazilianWorkshop/blob/master/docs/guia_de_instalacao.md#instalando-python-e-o-idle)
 * [Testando o Jupyter Notebook](https://github.com/SantosRAC/Python4BioDataBrazilianWorkshop/blob/master/docs/guia_de_instalacao.md#testando-o-jupyter-notebook)
