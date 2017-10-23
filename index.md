@@ -71,12 +71,17 @@ Nos dias 10 e 11 de Novembro de 2017
 
 * [Illumina](https://www.illumina.com/)
 
+<img src="https://santosrac.github.io/Python4BioDataBrazilianWorkshop/imagens/3 Exxtend.png"/> 
 
 * [Exxtend](https://www.exxtend.com.br/)
 
 * [Beckman Coulter](https://www.beckmancoulter.com/)
 
+<img src="https://santosrac.github.io/Python4BioDataBrazilianWorkshop/imagens/2 Logo_LabJBPesq.jpg"/> 
+
 * [JB Pesquero Laboratório](www.labjbpesquero.com.br/)
+
+<img src="https://santosrac.github.io/Python4BioDataBrazilianWorkshop/imagens/4 thermo-fisher-scientific-logo.jpg"/> 
 
 * [Thermo Fisher Scientific](https://www.thermofisher.com/br/pt/home.html)
 
