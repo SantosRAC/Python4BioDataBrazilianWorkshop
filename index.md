@@ -67,7 +67,10 @@ Nos dias 10 e 11 de Novembro de 2017
 
 ## Patrocinadores
 
+<img src="https://santosrac.github.io/Python4BioDataBrazilianWorkshop/imagens/1 Illumina.jpg"/> 
+
 * [Illumina](https://www.illumina.com/)
+
 
 * [Exxtend](https://www.exxtend.com.br/)
 
