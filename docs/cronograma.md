@@ -1,12 +1,12 @@
-# Programação do Workshop
-
-
 - [Inicio](../index.md)
 - [Cronograma](cronograma.md)
 - [Guia de Instalação](guia_de_instalacao.md)
 - [Material Python](python.md)
 - [Problema 1](problema1.md)
 - [Problema 2](problema2.md)
+
+
+# Programação do Workshop
 
 
 ## SEXTA-FEIRA (10 de Novembro de 2017)
