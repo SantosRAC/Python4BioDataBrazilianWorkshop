@@ -1,6 +1,3 @@
-# Guia de Instalação
-
-
 - [Inicio](../index.md)
 - [Cronograma](cronograma.md)
 - [Guia de Instalação](guia_de_instalacao.md)
@@ -8,6 +5,8 @@
 - [Problema 1](problema1.md)
 - [Problema 2](problema2.md)
 
+
+# Guia de Instalação
 
 
 Algumas **bibliotecas** e **ferramentas** serão utilizadas nesse workshop para podermos mostrar a você o incrível poder da linguagem **Python**.
