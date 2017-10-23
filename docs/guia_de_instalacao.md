@@ -29,7 +29,8 @@ Ao final desse guia, você deverá ter instalado no seu computador:
 ### Ir para
 * [Guia de Instalação para Windows](#guia-de-instala%C3%A7%C3%A3o-para-windows)
 * [Guia de Instalação para Linux](#guia-de-instalação-para-linux)
-
+* [Instalando Python e o IDLE](#instalando-python-e-o-idle)
+* [Testando o Jupyter Notebook](#testando-o-jupyter-notebook)
 
 
 ## Guia de Instalação para Windows
