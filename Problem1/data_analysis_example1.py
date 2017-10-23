@@ -40,12 +40,12 @@ print(tabelaExpressaoMouseBrain['gene']) # Retrieving information of a column by
 
 print(tabelaExpressaoMouseBrain.gene) # Retrieving information of a column by attribute
 
-print(tabelaExpressaoMouseBrain.ix[1]) # Retrieving information from column 1
+print(tabelaExpressaoMouseBrain.iloc[1]) # Retrieving information from column 1
 
-print(tabelaExpressaoMouseBrain.ix[[1, 2]]) # Retrieving information from column 1 and 2
+print(tabelaExpressaoMouseBrain.iloc[[1, 2]]) # Retrieving information from column 1 and 2
                                  ## It is done by giving method ix a list with the row indexes
 
-print(tabelaExpressaoMouseBrain.ix[[40, 401]]) # Retrieving information from column 40 and 401
+print(tabelaExpressaoMouseBrain.iloc[[40, 401]]) # Retrieving information from column 40 and 401
 
 del tabelaExpressaoMouseBrain['gid']  # Deleting the column with GI (we will not need this information)
 
