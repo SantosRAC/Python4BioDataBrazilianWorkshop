@@ -76,6 +76,8 @@ Nos dias 10 e 11 de Novembro de 2017
 
 * [Exxtend](https://www.exxtend.com.br/)
 
+<img src="https://santosrac.github.io/Python4BioDataBrazilianWorkshop/imagens/image001(1).png"/> 
+
 * [Beckman Coulter](https://www.beckmancoulter.com/)
 
 <img src="https://santosrac.github.io/Python4BioDataBrazilianWorkshop/imagens/2 Logo_LabJBPesq.jpg"/> 
