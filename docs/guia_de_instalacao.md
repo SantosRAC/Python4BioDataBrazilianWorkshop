@@ -105,11 +105,11 @@ Após a conclusão do download, abra o **Terminal** e vá para a pasta **Downloa
 
 Em seguida, se o seu sistema operacional for de **64 bits**, inicie a instalação executando:
 
-    bash Anaconda3-5.0.0.1-Linux-x86_64.sh
+    bash Anaconda3-5.0.1-Linux-x86_64.sh
 
 Do contrário, se seu sistema operacional for de **32 bits**, inicie a instalação executando:
 
-    bash Anaconda3-5.0.0.1-Linux-x86.sh
+    bash Anaconda3-5.0.1-Linux-x86.sh
 
 A instalação será iniciada no terminal exibindo o **termo de licença** do Anaconda, continue pressionando **Enter** para ler o **termo**. 
 
